@@ -6,9 +6,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'echo Hello Jenkins from shashank'
+                sh 'echo Hello Jenkins from shashank waghmare'
             }
         }
     }
 
 }
+
